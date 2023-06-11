@@ -23,4 +23,7 @@ public class Zoo {
         if (i >= 0 && i < objects.length)
             objects[i] = a;
     }
+    public String toString(){
+        return "Zoo: " + Arrays.toString(objects);
+    }
 }
